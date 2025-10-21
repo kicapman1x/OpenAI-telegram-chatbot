@@ -1,0 +1,408 @@
+[
+    {
+        "id": "utm_jb_fc01",
+        "name": "Faculty of Built Environment & Surveying, UTM",
+        "address": "Fakulti Alam Bina dan Ukur, Lingkaran Ilmu, Universiti Teknologi Malaysia, 81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5595088,
+        "longitude": 103.6368598
+    },
+    {
+        "id": "utm_jb_fc02",
+        "name": "Faculty of Science, UTM",
+        "address": "Jalan Hikmah, 81310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5607641,
+        "longitude": 103.6356801
+    },
+    {
+        "id": "utm_jb_fc03",
+        "name": "Faculty of Education, UTM",
+        "address": "Skudai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5598863,
+        "longitude": 103.6295505
+    },
+    {
+        "id": "utm_jb_fc04",
+        "name": "Language Academy, UTM",
+        "address": "Jalan Amal, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5615068,
+        "longitude": 103.6336141
+    },
+    {
+        "id": "utm_jb_fc05",
+        "name": "Faculty of Civil Engineering, UTM",
+        "address": "Block M46, Faculty of Civil Engineering, 81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5624452,
+        "longitude": 103.6319424
+    },
+    {
+        "id": "utm_jb_fc06",
+        "name": "Faculty of Mechanical Engineering, UTM",
+        "address": "Skudai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5616086,
+        "longitude": 103.634292
+    },
+    {
+        "id": "utm_jb_fc07",
+        "name": "Faculty of Computing, UTM",
+        "address": "Universiti Teknologi Malaysia, N28A, Lingkaran Ilmu, 81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5636862,
+        "longitude": 103.6353828
+    },
+    {
+        "id": "utm_jb_fc08",
+        "name": "Faculty of Electrical Engineering",
+        "address": "80990 Skudai, Johor, Malaysia",
+        "latitude": 1.5584157,
+        "longitude": 103.6356399
+    },
+    {
+        "id": "utm_jb_fc09",
+        "name": "Faculty of Chemical and Energy Engineering, Universiti Teknologi Malaysia",
+        "address": "81310 Skudai, Johor, Malaysia",
+        "latitude": 1.5643227,
+        "longitude": 103.6367885
+    },
+    {
+        "id": "utm_jb_fc10",
+        "name": "Faculty of Biosciences and Medical Engineering, Faculty Engineering, UTM Johor Bahru",
+        "address": "Skudai, 81300 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5442843,
+        "longitude": 103.6299807
+    },
+    {
+        "id": "utm_jb_fc11",
+        "name": "Faculty of Management, UTM",
+        "address": "Blok T08, Pejabat Pos Universiti Teknologi Malaysia, Fakulti Pengurusan, 81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5599812,
+        "longitude": 103.6534805
+    },
+    {
+        "id": "utm_jb_fc12",
+        "name": "Faculty of Islamic Civilization",
+        "address": "T07 Faculty of Islamic Civilization UTM, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5602297,
+        "longitude": 103.6517453
+    },
+    {
+        "id": "utm_jb_fc13",
+        "name": "Faculty of Geoinformation and Real Estate",
+        "address": "81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5620132,
+        "longitude": 103.6530336
+    },
+    {
+        "id": "utm_jb_fc14",
+        "name": "UTMSPACE (School of Professional and Continuing Education)",
+        "address": "34-50, Jalan Kebudayaan 1, Taman Universiti, 81300 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.543478,
+        "longitude": 103.6127116
+    },
+    {
+        "id": "utm_jb_rel01",
+        "name": "Sultan Ibrahim Chancellery",
+        "address": "Skudai, 80990 Skudai, Johor, Malaysia",
+        "latitude": 1.5585137,
+        "longitude": 103.6332807
+    },
+    {
+        "id": "utm_jb_rel02",
+        "name": "Masjid Sultan Ismail, Universiti Teknologi Malaysia",
+        "address": "Lingkaran Ilmu, Universiti Teknologi Malaysia, 81300 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5592698,
+        "longitude": 103.6349477
+    },
+    {
+        "id": "utm_jb_lib01",
+        "name": "Sultanah Zanariah Library",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5594404,
+        "longitude": 103.6319464
+    },
+    {
+        "id": "utm_jb_lib02",
+        "name": "Raja Zarith Sofiah Library (PRZS)",
+        "address": "Pusat Pentadbiran Universiti Teknologi Malaysia, 80990 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.563413,
+        "longitude": 103.6489654
+    },
+    {
+        "id": "utm_jb_spo01",
+        "name": "UTM Sports Complex",
+        "address": "Kompleks Sukan, UTM, U01, Jalan Kempas 2, 81310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5503356,
+        "longitude": 103.6356557
+    },
+    {
+        "id": "utm_jb_spo02",
+        "name": "UTM Stadium Gym",
+        "address": "Skudai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5565753,
+        "longitude": 103.6515002
+    },
+    {
+        "id": "utm_jb_rec01",
+        "name": "UTM Deer Park",
+        "address": "Skudai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5542904,
+        "longitude": 103.6331557
+    },
+    {
+        "id": "utm_jb_rec02",
+        "name": "UTM Equestrian Park",
+        "address": "Pusat Pentadbiran Universiti Teknologi Malaysia, 81310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5553748,
+        "longitude": 103.6388639
+    },
+    {
+        "id": "utm_jb_rec03",
+        "name": "UTM Scholar's Inn",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5541435,
+        "longitude": 103.6437284
+    },
+    {
+        "id": "utm_jb_rec04",
+        "name": "UTM Recreational Park",
+        "address": "Jalan Arked Angkasa, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5695343,
+        "longitude": 103.6284757
+    },
+    {
+        "id": "utm_jb_rec05",
+        "name": "UTM Observation Park",
+        "address": "Balai Cerap UTM, Lengkok Suria, 80990 Skudai, Johor, Malaysia",
+        "latitude": 1.5699235,
+        "longitude": 103.6421478
+    },
+    {
+        "id": "utm_jb_med01",
+        "name": "UTM Health Centre",
+        "address": "Pusat Pentadbiran Universiti Teknologi Malaysia, 80990 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5594342,
+        "longitude": 103.6247863
+    },
+    {
+        "id": "utm_jb_med02",
+        "name": "UTM Counselling and Psychotherapy Lab",
+        "address": "Counselling and Psychotherapy Lab, C13 Ground Floor, Room# 110, Universiti Teknologi Malaysia, Skudai, Johor, Malaysia",
+        "latitude": 1.5611907,
+        "longitude": 103.6352355
+    },
+    {
+        "id": "utm_jb_adm01",
+        "name": "Sultan Iskandar Hall",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.559305,
+        "longitude": 103.6360919
+    },
+    {
+        "id": "utm_jb_adm02",
+        "name": "Digital Services Department (UTMDigital)",
+        "address": "Block D07, Lingkaran Ilmu Jabatan Perkhidmatan Digital (UTMDigital Universiti Teknologi Malaysia, 81310 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.482282,
+        "longitude": 103.006076
+    },
+    {
+        "id": "utm_jb_adm03",
+        "name": "UTM Career Centre (UTMCC)",
+        "address": "Pusat Pentadbiran Universiti Teknologi Malaysia, L51, UTM, 81310 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5605148,
+        "longitude": 103.6298295
+    },
+    {
+        "id": "utm_jb_adm04",
+        "name": "School of Postgraduate",
+        "address": "F54, Pejabat Pos Universiti Teknologi Malaysia, 81310 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5554924,
+        "longitude": 103.6318425
+    },
+    {
+        "id": "utm_jb_adm05",
+        "name": "Department of Asset Management Complex",
+        "address": "Jalan Universiti, Taman Teknologi Johor, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5545043,
+        "longitude": 103.6151974
+    },
+    {
+        "id": "utm_jb_adm06",
+        "name": "PALAPES UTM",
+        "address": "M44, Jalan Resak, 80310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.566937,
+        "longitude": 103.6313124
+    },
+    {
+        "id": "utm_jb_adm07",
+        "name": "UTM Centre For Community & Industry Netwok (CCIN)",
+        "address": "Pusat Pentadbiran Universiti Teknologi Malaysia, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5583966,
+        "longitude": 103.6360984
+    },
+    {
+        "id": "utm_jb_adm08",
+        "name": "Penerbit UTM Press",
+        "address": "Kedai Buku Penerbit UTM Press, 81310 Skudai, Johor, Malaysia",
+        "latitude": 1.5532239,
+        "longitude": 103.6383851
+    },
+    {
+        "id": "utm_jb_adm09",
+        "name": "UTM Alumni House",
+        "address": "Jalan Ladang, 81310 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5529719,
+        "longitude": 103.6390034
+    },
+    {
+        "id": "utm_jb_adm10",
+        "name": "Dataran UTM",
+        "address": "Jalan Ladang, 80990 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5525826,
+        "longitude": 103.6384292
+    },
+    {
+        "id": "utm_jb_adm11",
+        "name": "UTM ICC Training Centre",
+        "address": "307, Industry Centre Building ICC, UTM Technovation Park, Jalan Pontian Lama, 81300 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5538431,
+        "longitude": 103.6236567
+    },
+    {
+        "id": "utm_jb_adm12",
+        "name": "Research Management Centre UTM",
+        "address": "Jalan Universiti, 81310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5555062,
+        "longitude": 103.6296934
+    },
+    {
+        "id": "utm_jb_adm13",
+        "name": "UTM Centre for Student Innovation (UTM-CSI)",
+        "address": "S01, Kolej Tunku Canselor Universiti Teknologi Malaysia UTM Skudai, 81310 UTM, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5544522,
+        "longitude": 103.6424392
+    },
+    {
+        "id": "utm_jb_adm14",
+        "name": "WCC, Universiti Teknologi Malaysia, Johor Bahru",
+        "address": "Skudai, 81310 Skudai, Johor, Malaysia",
+        "latitude": 1.559344,
+        "longitude": 103.6407163
+    },
+    {
+        "id": "utm_jb_hse01",
+        "name": "Desa Bakti Residence",
+        "address": "Blok Desa bakti 1 rumah kakitangan utm, 81310 Skudai, Malaysia",
+        "latitude": 1.5535944,
+        "longitude": 103.6249134
+    },
+    {
+        "id": "utm_jb_hse02",
+        "name": "Tun Dr Ismail College",
+        "address": "M01, 81310 Skudai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5641683,
+        "longitude": 103.482662
+    },
+    {
+        "id": "utm_jb_hse03",
+        "name": "Tun Hussein Onn College",
+        "address": "Jalan Merbau, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5636904,
+        "longitude": 103.6276585
+    },
+    {
+        "id": "utm_jb_hse04",
+        "name": "Tun Razak College",
+        "address": "Skudai, 80990 Skudai, Johor, Malaysia",
+        "latitude": 1.5646093,
+        "longitude": 103.5516411
+    },
+    {
+        "id": "utm_jb_hse05",
+        "name": "Datin Seri Indon College",
+        "address": "W1, 81110 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5663208,
+        "longitude": 103.6166977
+    },
+    {
+        "id": "utm_jb_hse06",
+        "name": "Dato' Onn Jaafar College",
+        "address": "Taman Sri Pulai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5752386,
+        "longitude": 103.612997
+    },
+    {
+        "id": "utm_jb_hse07",
+        "name": "Tun Ghafar Baba Residence",
+        "address": "Taman Sri Pulai, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5721554,
+        "longitude": 103.6172366
+    },
+    {
+        "id": "utm_jb_hse08",
+        "name": "Tun Fatimah College",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.7126466,
+        "longitude": 103.1956596
+    },
+    {
+        "id": "utm_jb_hse09",
+        "name": "Rahman Putra College",
+        "address": "G09 (RF), 601, Jalan Meranti 1, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5582187,
+        "longitude": 103.6282893
+    },
+    {
+        "id": "utm_jb_hse10",
+        "name": "Tuanku Canselor College",
+        "address": "S01, 80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5547064,
+        "longitude": 103.6422747
+    },
+    {
+        "id": "utm_jb_hse11",
+        "name": "Perdana College",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5596348,
+        "longitude": 103.6449649
+    },
+    {
+        "id": "utm_jb_hse12",
+        "name": "9 & 10 College",
+        "address": "Universiti Teknologi Malaysia, Kolej 9-10, 81310 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5597678,
+        "longitude": 103.6467258
+    },
+    {
+        "id": "utm_jb_ent01",
+        "name": "Main Gate",
+        "address": "Jalan Iman, 81310 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5632531,
+        "longitude": 103.6179946
+    },
+    {
+        "id": "utm_jb_ent02",
+        "name": "2nd Gate - Senai",
+        "address": "80990 Johor Bahru, Johor, Malaysia",
+        "latitude": 1.5660556,
+        "longitude": 103.6540484
+    },
+    {
+        "id": "utm_jb_ent03",
+        "name": "3rd Gate - Dataran UTM",
+        "address": "Jalan Ladang, 80990 Skudai, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5619358,
+        "longitude": 103.597643
+    },
+    {
+        "id": "utm_jb_ent04",
+        "name": "4th Gate - Desa Bakti",
+        "address": "Jalan Meranti, 80990 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5565653,
+        "longitude": 103.6234385
+    },
+    {
+        "id": "utm_jb_ent05",
+        "name": "5th Gate - Sri Pulai",
+        "address": "11, Jalan Batai 9, Taman Sri Pulai, 81110 Johor Bahru, Johor Darul Ta'zim, Malaysia",
+        "latitude": 1.5713006,
+        "longitude": 103.6161915
+    }              
+]

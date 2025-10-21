@@ -1,5 +1,7 @@
 import os
+import chromadb
 import logging
+import json
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
@@ -11,6 +13,7 @@ client = None
 bot_token = None
 
 def bootstrap():
+    #ENV VAR
     global client, openai_model, bot_token
     load_dotenv()
 
@@ -18,11 +21,16 @@ def bootstrap():
     logdir = os.environ.get("log_directory", ".")
     loglvl = os.environ.get("log_level", "INFO").upper()
     openai_model=os.environ.get("openai_model")
+    embed_model=os.environ.get("embed_model")
+    chromadir = os.environ.get("chroma_directory", ".")
+    fill_db= bool(os.environ.get("fill_db", "False"))
 
+    #OpenAI client
     client = OpenAI(
         api_key=os.environ.get("openai_token")
     )
 
+    #logger
     log_level = getattr(logging, loglvl, logging.INFO)
 
     logging.basicConfig(
@@ -30,8 +38,42 @@ def bootstrap():
         level=log_level,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
+
+    #ChromaDB 
+    if (fill_db):
+        writeChromaDB(chromadir,embed_model)
     logger.info('*********** Bootstrap completed ***********')
 
+def writeChromaDB(chromadir,embed_model):
+    chroma_client = chromadb.PersistentClient(path=chromadir)
+    collection = chroma_client.get_or_create_collection(name="utm_jb_campus_locations")
+    with open("chroma_input.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    ids = [location['id'] for location in data]
+    documents = [location['name'] for location in data]
+    metadatas = [{
+        "id": location['id'],
+        "name": location['name'],
+        "address": location['address'],
+        "latitude": location['latitude'],
+        "longitude": location['longitude']
+    } for location in data]
+    embeddings = [get_embeddings(location['name'],embed_model) for location in data]
+    collection.upsert(
+        ids=ids,
+        documents=documents,
+        metadatas=metadatas,
+        embeddings=embeddings
+    )
+    logger.info('*********** Data written to ChromaDB ***********')
+
+def get_embeddings(text,embed_model):
+    # Helper for chromadb writer
+    response = client.embeddings.create(
+        model=embed_model, 
+        input=text
+    )
+    return response.data[0].embedding
 
 async def start(update, context):
     await update.message.reply_text("Hello! I'm your friendly UTM Campus Assistant. How may I assist you today?")
